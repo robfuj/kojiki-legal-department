@@ -1,0 +1,46 @@
+{
+  "decision_object": {
+    "decision_id": "LEG-2026-019",
+    "decision_name": "EU paid referral launch",
+    "owning_function": "Legal",
+    "decision_owner_role": "Senior Counsel",
+    "trigger_condition": "US program live; EU blocked pending review",
+    "current_state": "EU launch pending legal structure",
+    "required_inputs": [
+      "GDPR basis",
+      "referrer data flow",
+      "peer structure"
+    ],
+    "evidence_threshold": "Documented lawful basis + deletion control",
+    "available_options": [
+      "Approve as-is",
+      "Approve with LI + deletion",
+      "Reject",
+      "Restructure"
+    ],
+    "decision_criteria": "Compliant structure with defensible basis",
+    "constraints": "EU GDPR applies",
+    "risk_level": "medium",
+    "delegation_level": "Approve",
+    "escalation_conditions": "Regulator inquiry",
+    "expected_outcome": "Compliant EU launch",
+    "verification_method": "DPA review + 12-mo monitor",
+    "actual_outcome": "6mo live; 0 complaints",
+    "learning_extracted": "EU launches need written LI assessment first",
+    "rule_version": "LEG-RULE-003",
+    "last_reviewed": "2026-08-18"
+  },
+  "learning_ledger": {
+    "case": "EU paid referral program",
+    "decision": "Approve with conditions (LI + deletion)",
+    "assumption": "Legitimate-interest basis defensible",
+    "action": "Document LI; add 30-day deletion job",
+    "expected_result": "No regulator inquiry",
+    "actual_result": "6mo live, 0 complaints",
+    "variance": "Confirmed defensible",
+    "cause": "LI + deletion control satisfied GDPR",
+    "learning": "Write LI assessment before EU go-live",
+    "rule_update": "Mandate LI/DPIA doc before any EU data-processing feature ships"
+  },
+  "orientation_required": true
+}

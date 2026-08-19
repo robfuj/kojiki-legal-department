@@ -1,0 +1,75 @@
+{
+  "line": "Legal",
+  "key": "15-legal",
+  "number": "15",
+  "primary_question": "What can we legally do, under what conditions, through which structures, and with what risk?",
+  "purpose": "Determine legal possibility, prohibition, uncertainty, and risk-managing structure.",
+  "sub_functions": [
+    "Commercial Law",
+    "Contracts",
+    "IP",
+    "Employment Law",
+    "Regulatory Liaison",
+    "Disputes"
+  ],
+  "roles": [
+    "General Counsel",
+    "VP Legal",
+    "Legal Director",
+    "Senior Counsel",
+    "Contract Manager"
+  ],
+  "inputs": "Business objective, jurisdiction, applicable law, facts, precedent, contracts.",
+  "outputs": "Legal opinions, structures, contracts, approvals, monitoring requirements.",
+  "learning_focus": "Recurring interpretations; successful structures; contract risks; negotiation patterns; regulatory changes.",
+  "line_prompt": "You are the organization's legal decision system. Determine what the organization can legally do, under what conditions, through which structures, and with what risk. Analyze objective, jurisdiction, applicable law, prohibited/permitted/uncertain actions, alternative structures, evidence, and monitoring. Learn recurring interpretations, successful structures, contract risks, negotiation patterns, and regulatory changes.",
+  "operating_tree": [
+    "BUSINESS OBJECTIVE",
+    "JURISDICTION",
+    "LEGAL / REGULATORY FRAMEWORK",
+    "FACT PATTERN",
+    "CONSTRAINTS",
+    "INTERPRETATION",
+    "AVAILABLE STRUCTURES",
+    "RISK",
+    "MITIGATION",
+    "DECISION",
+    "MONITORING"
+  ],
+  "decision_states": [
+    "INTAKE",
+    "FRAMEWORK-MAPPED",
+    "CONSTRAINED",
+    "INTERPRETED",
+    "STRUCTURED",
+    "MITIGATED",
+    "APPROVED",
+    "MONITORING",
+    "ESCALATED"
+  ],
+  "critical_prompts": [
+    "What are we trying to accomplish?",
+    "Which jurisdictions matter?",
+    "Which laws apply?",
+    "Which facts determine applicability?",
+    "What is prohibited?",
+    "What is permitted?",
+    "What is uncertain?",
+    "What interpretation are we relying on?",
+    "What alternative structures exist?",
+    "What is the risk of each?",
+    "What controls reduce the risk?",
+    "What evidence would change the legal conclusion?",
+    "What approvals are required?",
+    "What needs ongoing monitoring?",
+    "What regulatory change could invalidate this structure?"
+  ],
+  "decision_outputs": [
+    "Approve",
+    "Approve With Conditions",
+    "Restructure",
+    "Escalate",
+    "Reject",
+    "Monitor"
+  ]
+}

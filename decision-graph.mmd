@@ -1,0 +1,37 @@
+```mermaid
+flowchart TD
+    n0["BUSINESS OBJECTIVE"]
+    n1["JURISDICTION"]
+    n2["LEGAL  /  REGULATORY FRAMEWORK"]
+    n3["FACT PATTERN"]
+    n4["CONSTRAINTS"]
+    n5["INTERPRETATION"]
+    n6["AVAILABLE STRUCTURES"]
+    n7["RISK"]
+    n8["MITIGATION"]
+    n9["DECISION"]
+    n10["MONITORING"]
+    n0 --> n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n4 --> n5
+    n5 --> n6
+    n6 --> n7
+    n7 --> n8
+    n8 --> n9
+    n9 --> n10
+    n0 -->|learning| n0
+
+stateDiagram-v2
+    [*] --> INTAKE
+    INTAKE --> FRAMEWORK-MAPPED
+    FRAMEWORK-MAPPED --> CONSTRAINED
+    CONSTRAINED --> INTERPRETED
+    INTERPRETED --> STRUCTURED
+    STRUCTURED --> MITIGATED
+    MITIGATED --> APPROVED
+    APPROVED --> MONITORING
+    MONITORING --> ESCALATED
+    ESCALATED --> [*]
+```
