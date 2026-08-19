@@ -1,0 +1,136 @@
+{
+  "department": "15-legal",
+  "orientation_required": true,
+  "research_then_install": true,
+  "sub_function_count": 8,
+  "bots": [
+    {
+      "slug": "corporate-legal",
+      "sub_function": "Corporate Legal",
+      "titles": [
+        "CLO",
+        "General Counsel",
+        "Deputy GC",
+        "Associate GC",
+        "Legal Director",
+        "Legal Counsel",
+        "Commercial Counsel",
+        "Regulatory Counsel",
+        "Privacy Counsel",
+        "Contract Manager"
+      ]
+    },
+    {
+      "slug": "commercial-legal",
+      "sub_function": "Commercial Legal",
+      "titles": [
+        "CLO",
+        "General Counsel",
+        "Deputy GC",
+        "Associate GC",
+        "Legal Director",
+        "Legal Counsel",
+        "Commercial Counsel",
+        "Regulatory Counsel",
+        "Privacy Counsel",
+        "Contract Manager"
+      ]
+    },
+    {
+      "slug": "regulatory",
+      "sub_function": "Regulatory",
+      "titles": [
+        "CLO",
+        "General Counsel",
+        "Deputy GC",
+        "Associate GC",
+        "Legal Director",
+        "Legal Counsel",
+        "Commercial Counsel",
+        "Regulatory Counsel",
+        "Privacy Counsel",
+        "Contract Manager"
+      ]
+    },
+    {
+      "slug": "employment",
+      "sub_function": "Employment",
+      "titles": [
+        "CLO",
+        "General Counsel",
+        "Deputy GC",
+        "Associate GC",
+        "Legal Director",
+        "Legal Counsel",
+        "Commercial Counsel",
+        "Regulatory Counsel",
+        "Privacy Counsel",
+        "Contract Manager"
+      ]
+    },
+    {
+      "slug": "ip",
+      "sub_function": "IP",
+      "titles": [
+        "CLO",
+        "General Counsel",
+        "Deputy GC",
+        "Associate GC",
+        "Legal Director",
+        "Legal Counsel",
+        "Commercial Counsel",
+        "Regulatory Counsel",
+        "Privacy Counsel",
+        "Contract Manager"
+      ]
+    },
+    {
+      "slug": "privacy",
+      "sub_function": "Privacy",
+      "titles": [
+        "CLO",
+        "General Counsel",
+        "Deputy GC",
+        "Associate GC",
+        "Legal Director",
+        "Legal Counsel",
+        "Commercial Counsel",
+        "Regulatory Counsel",
+        "Privacy Counsel",
+        "Contract Manager"
+      ]
+    },
+    {
+      "slug": "litigation",
+      "sub_function": "Litigation",
+      "titles": [
+        "CLO",
+        "General Counsel",
+        "Deputy GC",
+        "Associate GC",
+        "Legal Director",
+        "Legal Counsel",
+        "Commercial Counsel",
+        "Regulatory Counsel",
+        "Privacy Counsel",
+        "Contract Manager"
+      ]
+    },
+    {
+      "slug": "contracting",
+      "sub_function": "Contracting",
+      "titles": [
+        "CLO",
+        "General Counsel",
+        "Deputy GC",
+        "Associate GC",
+        "Legal Director",
+        "Legal Counsel",
+        "Commercial Counsel",
+        "Regulatory Counsel",
+        "Privacy Counsel",
+        "Contract Manager"
+      ]
+    }
+  ]
+}
